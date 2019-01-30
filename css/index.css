@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    
+}
+
+body {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+header .choice {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 100px 5px;
+    background-color: #8e8e93;
+    border: 1px;
+    border-color: black;
+}
+
+header label {
+    color: white;
+    font-size: 24px;
+}
+
+
+
+#country {
+   align-items: center;
+   color: white;
+   background-color: #8e8e93;
+   border-style: solid;
+   border-color: white;
+   border-width: 2px;
+   border-radius: 4px;
+   margin-left: 10px;
+   font-size: 22px;
+   width: 254px;
+   height: 45px;
+}
+
+#ok_button {
+    color: white;
+    font-size: 22px;
+    height: 45px;
+    width: 45px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    background-color: #007aff;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+header nav {
+    height: 68px;
+    background-color: black;
+    color: white;
+}
+
+header .toolbar {
+    display: flex;
+}
+
+.toolbar li {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+    
+
+.shoppingcart a {
+    height: 25em;
+    width: 25em;
+}
+
+
+.branches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78px;
+    background-color: #8e8e93;
+}
+
+.branches img {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+
+
+#bmw {
+    float: left;
+    height: 575px;
+    width: 575px;
+}
+
+
+.short_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.short_info button {
+    height: 70px;
+    width: 250px;
+    background-color: #007aff;
+    font-size: 24px;
+    color: white;
+    border: 3px;
+    border-radius: 4px;
+    
+}
+    
+
+
+.extra_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    background-color: #e5e5ea;
+}
+
+.extra_info img {
+    height: 200px;
+    width: 200px;
+}
+
+.extra_info p {
+    font-size: 24px;
+    text-align: center;
+}
+    
+    
+.mobile_app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+
+.mobile_app h2,h3 {
+    font-size: 40px;
+}
+
+.mobile_app p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.mobile_app h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007aff;
+    margin-top: 50px;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#apple {
+    height: 55px;
+    width: 155px;
+    margin-right: 30px;
+}
+
+#google {
+   height: 55px;
+    width: 155px; 
+}
+
+.contact {
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.request {
+    height: 400px;
+}
+
+label {
+    
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    width: 800px;
+    text-align: left;
+    border: 2px;
+}
+
+textarea {
+    height: 100px;
+    width: 300px;
+    float: left;
+}
+
+
+#submit_request {
+    height: 50px;
+    width: 150px;
+    background-color: #007aff;
+    color: white;
+    font-size: 22px;
+}
+
+footer {
+    height: 100px;
+}
+
+footer h3 {
+    font-size: 26px;
+    text-align: center;
+}
+
+footer p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 22px
+}
+
+footer h4 {
+    font-size: 22px;
+    text-align: center;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+}
+
+footer a {
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
