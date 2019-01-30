@@ -8,6 +8,8 @@ body {
     margin: 0 auto;
 }
 
+
+
 header .choice {
     display: flex;
     justify-content: flex-end;
@@ -18,10 +20,12 @@ header .choice {
     border-color: black;
 }
 
-header label {
+#logo {
     color: white;
     font-size: 24px;
 }
+
+
 
 
 
@@ -72,10 +76,13 @@ header .toolbar {
 
     
 
-.shoppingcart a {
-    height: 25em;
-    width: 25em;
+.shoppingcart img {
+    height: 25px;
+    width: 25px;
+    float: right;
 }
+
+.shoppingcart img
 
 
 .branches {
@@ -210,6 +217,7 @@ textarea {
     height: 100px;
     width: 300px;
     float: left;
+    
 }
 
 
