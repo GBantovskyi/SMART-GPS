@@ -5,14 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Client form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
+    <header>
+        <div class="choice">
+            <span class="clock"></span>
+            <a href="https://www.google.com/maps"><img src="img/intl.svg" alt="planet_logo"></a>
+            <select id="country">
+            <option value="">Your country</option>
+            <option value="united states">United States</option>
+            <option value="canada">Canada</option>
+            <option value="ukraine">Ukraine</option>
+        </select>
+            <button type="button" id="ok_button">OK</button>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">Smart GPS Tracker</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About company <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Safety</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li id="shopping_cart"><a href="#shopping_cart"><img src="img/shopping-cart.png" alt="shopping cart"></a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
     <h1>Please, fill in all gaps</h1>
-    
-    
-    
-    
+    <form action="https://formspree.io/gbantovsky@gmail.com" method="POST">
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="emai@adress.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">First Name</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Last Name</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Your request</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+  </div>
+  <button type="button" class="btn btn-primary">SEND</button>
+</form>
+
+<footer>
+        <div class="logo">
+            <a href="https://www.facebook.com"><img src="img/face.png" alt="facebook_icon"></a>
+            <a href="https://www.youtube.com"><img src="img/you.png" alt="youtube_icon"></a>
+            <a href="https://www.instagram.com"><img src="img/inst.png" alt="insta_icon"></a>
+        </div>
+
+        <div class="contacts">
+            <a href="form.html">Make a request</a>
+            <p>Contact by e-mail: <a href="mailto:gbantovsky@gmail.com">gbantovsky@gmail.com</a></p>
+            <p>Call us: <a href="tel:+38(063)2467949">+38(063)2467949</a></p>
+        </div>
+
+    </footer>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="js/smooth_scroll.js"></script>
     
 </body>
 </html>
